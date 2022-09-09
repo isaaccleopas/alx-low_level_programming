@@ -7,12 +7,7 @@
  *
  * return: always 0
 */
-/**
- *
- * main - prints negative when n<0, zero when n == 0 and positive n>0
- */
-
-int main(void) 
+int main(void)
 {
 	int n;
 
