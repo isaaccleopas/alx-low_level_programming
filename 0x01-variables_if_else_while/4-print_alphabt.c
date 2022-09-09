@@ -3,6 +3,7 @@
  * main - entry point
  *
  * return: always returns 0
+ *
  */
 int main(void)
 {
