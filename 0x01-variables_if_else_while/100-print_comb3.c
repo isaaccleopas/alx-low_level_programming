@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (j = 10; j <= 19; j++)
 		{
-			if((j % 10) > (i % 10))
+			if ((j % 10) > (i % 10))
 			{
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
@@ -22,7 +22,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-			}	
+			}
 		}
 	}
 	putchar('\n');
