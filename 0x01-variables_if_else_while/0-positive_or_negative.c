@@ -7,7 +7,7 @@
  *
  * return: always 0
 */
-int main(void) //prints negative, positve, and zero depending on the value of n
+int main(void)
 {
 	int n;
 
