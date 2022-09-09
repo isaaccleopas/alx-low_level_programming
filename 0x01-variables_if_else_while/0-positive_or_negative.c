@@ -6,7 +6,9 @@
  * main - Entry point
  *
  * return: always 0
- */
+*
+*/
+/* Description for main */
 int main(void)
 {
 	int n;
