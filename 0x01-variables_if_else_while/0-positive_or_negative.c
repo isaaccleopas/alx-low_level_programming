@@ -6,10 +6,12 @@
  * main - Entry point
  *
  * return: always 0
-*
 */
-/* Description for main */
-int main(void)
+/**
+ *
+ * main - prints negative when n<0, zero when n == 0 and positive n>0
+ */
+int main(void) 
 {
 	int n;
 
