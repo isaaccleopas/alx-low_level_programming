@@ -16,5 +16,5 @@ int _putchar(char c);
  *
  * Return: gives 1 or 0
  */
-int _isupper(int c)
+int _isupper(int c);
 #endif
