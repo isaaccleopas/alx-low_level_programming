@@ -31,6 +31,7 @@ int _isupper(int c);
  */
 
 int _isdigit(int c);
+
 /**
  * mul - multiplier
  * a: int to mult
@@ -39,4 +40,11 @@ int _isdigit(int c);
  */
 
 int mul(int a, int b);
+
+/**
+ * print_numbers - prints the numbers
+ */
+
+void print_numbers(void);
+
 #endif
