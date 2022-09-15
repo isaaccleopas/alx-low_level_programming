@@ -10,6 +10,7 @@
  */
 
 int _putchar(char c);
+
 /**
  * _isupper - checks if uppercase
  *
@@ -18,6 +19,17 @@ int _putchar(char c);
  * Return: gives 1 or 0
  *
  */
+
 int _isupper(int c);
+
+/**
+ *  _isdigit - determine if digit
+ *
+ * c: character to determine
+ *
+ * Return: gives boolean
+ */
+
+int _isdigit(int c);
 
 #endif
