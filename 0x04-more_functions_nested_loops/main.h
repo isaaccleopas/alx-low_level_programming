@@ -17,13 +17,12 @@ int _putchar(char c);
  * c character to check
  *
  * Return: gives 1 or 0
- *
  */
 
 int _isupper(int c);
 
 /**
- *  _isdigit - determine if digit
+ * _isdigit - determine if digit
  *
  * c: character to determine
  *
@@ -34,15 +33,16 @@ int _isdigit(int c);
 
 /**
  * mul - multiplier
- * a: int to mult
- * b: int to mult
+ *
+ * a: int to mult b: int to mult
+ *
  * Return: result of two
  */
 
 int mul(int a, int b);
 
 /**
- * print_numbers - prints the numbers
+ * print_numbers - prints numbers
  */
 
 void print_numbers(void);
@@ -51,6 +51,7 @@ void print_numbers(void);
  * print_most_numbers - prints the numbers
  *
  */
+
 void print_most_numbers(void);
 
 /**
