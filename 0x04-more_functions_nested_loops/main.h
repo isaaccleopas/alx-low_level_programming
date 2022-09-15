@@ -100,5 +100,12 @@ int main(void);
  */
 
 void print_triangle(int size);
+/**
+ * print_number - prints number
+ *
+ * @n: integer to print to character
+ */
+
+void print_number(int n);
 
 #endif
