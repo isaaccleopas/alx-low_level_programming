@@ -48,11 +48,9 @@ int mul(int a, int b);
 void print_numbers(void);
 
 /**
- * main - check the code for Holberton School students.
+ * print_most_numbers - prints the numbers
  *
- * Return: Always 0.
  */
-
-int main(void);
+void print_most_numbers(void);
 
 #endif
