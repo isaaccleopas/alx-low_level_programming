@@ -66,7 +66,7 @@ void more_numbers(void);
  * n: integer to print stuff?
  */
 
-void print_line(int n);
+void print_line(int);
 
 /**
  * print_diagonal - prints diagonal stuff
@@ -74,6 +74,6 @@ void print_line(int n);
  * n: integer to set diagonal
  */
 
-void print_diagonal(int n);
+void print_diagonal(int);
 
 #endif
