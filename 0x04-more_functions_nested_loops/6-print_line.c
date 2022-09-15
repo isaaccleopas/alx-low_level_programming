@@ -5,6 +5,7 @@
  *
  * n: integer to print stuff?
  */
+
 void print_line(int n)
 {
 	int i;
