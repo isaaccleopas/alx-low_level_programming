@@ -1,20 +1,20 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * main - check the code for Holberton School students.
+ * print_array - prints array
+ * @a: pointer of array
+ * @n: how many times to prints
  *
- * Return: Always 0.
  */
-int main(void)
+void print_array(int *a, int n)
 {
-	int array[6];
+	int i;
 
-	array[0] = 98;
-	array[1] = 402;
-	array[2] = -198;
-	array[3] = 298;
-	array[4] = -1024;
-	array[5] = -200003;
-	print_array(array, 6);
-	return (0);
+	for (i = 0; i < n; i++)
+	{
+		printf("%d", a[i]);
+		if (i != n - 1)
+			printf(", ");
+	}
+	printf("\n");
 }
