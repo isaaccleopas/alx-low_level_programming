@@ -7,20 +7,15 @@
  *
  * Return: char value
  */
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, const char *src)
 {
-	int i;
-	int j;
-
-	for (j = 0; dest[j] != '\0'; j++)
-	{}
-
-	for (i = 0; src[i] != '\0'; i++)
-	{
-		dest[j + i] = src[i];
-	}
-	dest[j + i] = '\0';
-
+	int index = 0, dest_len = 0;
+	
+	while (dest[index++])
+		dest_len++;
+	
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+	
 	return (dest);
-
 }
