@@ -1,8 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/**
+ * _putchar - writes the character c to std
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
 int _putchar(char c);
-
 
 char *_strcat(char *dest, char *src);
 
@@ -21,7 +24,10 @@ char *cap_string(char *);
 char *leet(char *);
 
 char *rot13(char *);
-
+/**
+ * print_number- prints a number
+ * @n: number to print to character
+ */
 void print_number(int n);
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
