@@ -1,5 +1,6 @@
 #ifndef MAIN_H_
 #define MAIN_H_
+#include <stdio.h>
 /**
  * leet - switches characters to 1337
  * @s: string to switch
