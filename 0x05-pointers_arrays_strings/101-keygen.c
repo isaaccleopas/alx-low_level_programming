@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main() {
+int main(void) {
     srand(time(NULL));
     for (int i = 0; i < 3; i++) {
         int random_number = rand() % 1000000;
