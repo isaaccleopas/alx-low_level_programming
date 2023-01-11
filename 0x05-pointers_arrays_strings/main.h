@@ -80,4 +80,6 @@ void print_to_98(int n);
   * Return: returns s
   */
 int _strlen(char *s);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
 #endif
