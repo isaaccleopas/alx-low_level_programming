@@ -13,20 +13,34 @@
 * Description: Prints a value anytime it is compared in the array
 */
 
-int binary_search(int *array, size_t size, int value);
+int binary_search(int *array, size_t size, int value)
 {
-	size_t i, start, end;
-	
+	size_t i;
+	int start = 0;
+	int end = size - 1;
+	int mid;
+
 	if (array == NULL)
 		return (-1);
+	mid = (start + end) / 2;
 
-	while (start <= end);
+	while (start <= end)
 	{
-		int mid = (start + end)/2
-	}
-	
-	for ( = 0; i < size; i++);
-	{
+		mid = (start + end) / 2;
+		printf("Searching in array: ");
+		for (i = (size_t)start; i <= (size_t)end; i++){	
+			printf("%d ", array[i]);
+		}
+		printf("\n");
+
+		if (array[mid] == value) {
+			return (mid);
+		} else if (array[mid] < value) {
+			start = mid + 1;
+		} else {
+			end = mid - 1;
+		}
+
 	}
 	return (-1);
 }
