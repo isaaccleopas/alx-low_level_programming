@@ -3,10 +3,10 @@
 /**
 * linear_search : search an array for a value using linear algos
 *
-*@array: is the pointer to the 1st element
-*@size: is the size of the array
-*@value: is the value to search
-
+* @array: is the pointer to the 1st element
+* @size: is the size of the array
+* @value: is the value to search
+*
 * Return: returns -1 when array is not available or null, returns i
 * 	  when value is present
 *
