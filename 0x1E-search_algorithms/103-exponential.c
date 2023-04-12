@@ -2,14 +2,16 @@
 
 /**
  * exponential_search - searches for a value in a sorted array of integers
- * using the exponential search algorithm
+ * 			using the exponential search algorithm
  *
  * @array: pointer to the first element of the array to search
  * @size: number of elements in the array
  * @value: value to search for
  *
  * Return: index where value is located, or -1 if array is NULL or value is not
- * found in array
+ * 	   found in array
+ *
+ * Description: Prints a value every time it is compared in the array.
  */
 int exponential_search(int *array, size_t size, int value)
 {
