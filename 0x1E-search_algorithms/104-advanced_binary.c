@@ -11,6 +11,8 @@
  * @value: value to search for
  *
  * Return: index where value is located, or -1 if value is not present in array
+ *
+ * Description: Prints the [sub]array being searched after each change.
  */
 int recursive_binary_search(int *array, size_t left, size_t right, int value)
 {
@@ -53,6 +55,8 @@ int recursive_binary_search(int *array, size_t left, size_t right, int value)
  * @value: value to search for
  *
  * Return: index where value is located, or -1 if value is not present in array
+ *
+ * Description: Prints the [sub]array being searched after each change.
  */
 int advanced_binary(int *array, size_t size, int value)
 {
